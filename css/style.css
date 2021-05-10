@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* Styling Navigation  */
+
+#navbar{
+    display: flex;
+    height: 72px;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+
+/* Navbar logo and navitems  */
+#logo img{
+    margin: 16px 20px;
+}
+
+#navbar ul {
+    display: flex;
+    
+}
+#navitems{
+    position: absolute;
+    left: 60%;
+    margin: 16px 20px;
+}
+#navitems ul li {
+    list-style: none;
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 25px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#navbar ul li a:hover{
+    background-color: rgb(32, 15, 15);
+    border-radius: 10px;
+    
+}
+
+/* Styling Home Section  */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+
+
+
+}
+#home::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url("../images/home.png") no-repeat center center/cover;
+    z-index: -1;
+    filter: brightness(0.5);
+
+}
+#home h1{
+    color: white;
+    font-size: 5.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+/* Styling Service Section  */
+#service-container{
+    padding: 160px 3px;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+}
+#service{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0px;
+    padding: 0px 80px;
+}
+
+#service .box{
+    margin: 33px;
+}
+#service{}
+#service{}
+
+/* Utility Section  */
+.h-primary{
+    color: #9B9B9B;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.3rem;
+    padding: 12px;
+
+
+}
+.h-secondary{
+    color:  #27AD6C;
+    font-size: 1rem;
+    margin: 26px 4px;
+}
+.para{
+    color: #4A4A4A;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 10px 0px;
+}
+
+.btn{
+    width: fit-content;
+    border-radius: 4px;
+    /* padding: 4px 5px; */
+    width: 192px;
+    height: 62px;
+    background-color: #27AD6C;
+    border-radius: 4px;
+
+}
+.btntxt{
+    width: 88px;
+    height: 19px;
+    text-transform: uppercase;
+    padding-left: 45px;
+    color: white;
+}
+#home-para{
+    width: 40%;
+    margin: 20px 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    
+}
+.text-center{
+    text-align: center;
+}
+
