@@ -146,6 +146,7 @@
     top: -20px;
     margin: 2px 2px;
     line-height: 1;
+    opacity: 0.5;
 }
 #topic .icon{
     padding: 2px 3px;
@@ -200,12 +201,42 @@
     border: 1px solid #88C542;
 }
 
+/* Styling Food Section  */
+#food-section{
+    display: flex;
+    width: 100%;
+    margin-top: 212px;
+}
+#foodbox{
+    position: absolute;
+}
+#foodheader{
+    text-align: center;
+    margin: 4px 4px;
+}
+#foodheader .para{
+    color: #9B9B9B;
+    font-style: italic;
+}
+#foods{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 85px
+}
+
+#foods .food-items img{
+    width: 449px;
+    margin-top: -4px;
+}
+
+
+
 /* Utility Section  */
 .h-primary{
     color: #9B9B9B;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    font-size: 2.3rem;
+    font-size: 3rem;
     padding: 12px;
 
 
@@ -233,11 +264,14 @@
 
 }
 .btntxt{
-    width: 88px;
+    width: 110px;
     height: 19px;
     text-transform: uppercase;
     padding-left: 45px;
     color: white;
+}
+.btntxt .fas{
+   padding: 2px 8px;
 }
 #home-para{
     width: 40%;
