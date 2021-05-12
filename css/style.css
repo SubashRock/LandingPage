@@ -40,6 +40,7 @@
     list-style: none;
 
 }
+
 #navbar ul li a{
     text-decoration: none;
     color: whitesmoke;
@@ -229,7 +230,94 @@
     margin-top: -4px;
 }
 
+/* Styling Service container section  */
+#containers{
+    display: flex;
+    position: relative;
+    background-color: #423633;
+    height: 1147px;
+    margin-top: 944px;
+}
+#container h1{
+    padding: 31px 39px 0px 34px;
+    width: 100%;
+    margin: 100px 40px 30px 32px;
+    color: white;
+}
+#container #imagecontainer{
+    display: flex;
+    width: 1097px;
+    padding: 0px 30px;
+    margin: 31px 10px;
+    flex-wrap: wrap;
+}
+#imagecontainer .imgdiv{
+    display: flex;
+    position: relative;
+    padding: 51px 151px;
 
+}
+#imagecontainer .imgdiv h4{
+    position: absolute;
+    left: 220px;
+    top: 56px;
+    width: 260px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+
+}
+#imagecontainer .imgdiv p{
+    position: absolute;
+    left: 220px;
+    top: 88px;
+    width: 219px;
+    text-align: left;
+    color: white;
+    font-size: 1rem;
+    font-family: normal;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+#btncontainer .btn{
+    position: absolute;
+    left: 46%;
+    top: 75%;
+} 
+
+#logocontainer img{
+    position: absolute;
+    /* display: inline; */
+    left: 50%;
+    top: 89%;
+    filter: grayscale(5);
+}
+/* Styling Footer Section  */
+#footer{
+    display: flex;
+    position: relative;
+    padding: 27px 0px;
+    background-color: #333333;
+    color: white;
+}
+
+#footer ul{
+    display: flex;
+    position: absolute;
+    right: 5%;
+}
+#footer ul li{
+    list-style: none;
+    padding: 10px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.copyright h3{
+    margin: 10px 20px;
+    font-size: 14px;
+}
 
 /* Utility Section  */
 .h-primary{
