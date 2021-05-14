@@ -1,21 +1,220 @@
 /* Styling Navigation section  */
 #navbar{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#navitems{
+    position: relative;
+    left: 0%;
+    margin: 16px 20px;
+}
+
+#logo img {
+    margin: 26px 21px;
+    position: relative;
+    top: 30%;
+    left: 0%;
+}
 /* Styling Home Section  */
+#home h1{
+    font-size: 3.3rem;
+}
 
+#home-para {
+    width: 60%;
+}
 
-/* Styling Service Section  */
+.btn{
+    position: absolute;
+    top: 70%;
+    width: 180px;
+    height: 62px;
+    border-radius: 10px;
+}
+/* Styling Requirement Section  */
 
+#require{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+#require .box .img1, .img2{
+    width: 100%;
+}
+.box #img3{
+    width: 783.95px;
+    height: 512.12px;
+}
+
+@media screen and (max-width: 480px) {
+    #require .box .img1, .img2{
+        width: 224.95px;
+        height: 159.12px;
+    }
+    .box #img3{
+        width: 224.95px;
+        height: 159.12px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width:868px) {
+    #require .box .img1, .img2{
+        width: 492.95px;
+        height: 321.12px;
+    }
+    .box #img3{
+        width: 492.95px;
+        height: 321.12px;
+    }
+}
 
 /* Styling Resource Section  */
 
+#topic #topic-2 {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 0%;
+    left: 61%;
+    width: 65%;
+}
+
+#topic h1 {
+    font-size: 2rem;
+}
+
+@media (max-width: 300px) {
+  
+}
+
+#topic #hrline hr {
+    width: 50%;
+    height: 0%;
+    left: 24%;
+    top: 39%;
+}
+
+#topic .resource-contents hr{
+    width: 470px;
+}
 
 /* Styling Food Section  */
 
+#foodbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#foods {
+    flex-grow: 13;
+    display: flex;
+    position: absolute;
+    top: 252%;
+    flex-basis: 1;  
+     flex-wrap:wrap;
+    margin-top: 85px;
+}
+
+@media screen and (max-width: 490px) {
+    #foods .food-items img {
+        width: 154px;
+        height: 276px;
+        margin-top: -3px;
+    }
+
+    #foods .food-items {
+        width: 500px;
+    }
+}
+@media screen and (min-width: 495px) and (max-width: 900px) {
+    #foods .food-items img {
+        width: 365px;
+        height: 333px;
+    }
+
+    #foods .food-items {
+        width: 1092px;
+    }
+}
+
+#foodheader {
+    text-align: center;
+    margin: 11px 4px;
+    position: relative;
+    top: 134px;
+    right: 3px;
+}
 
 /* Styling Service Container Section  */
+@media screen and (max-width:1304px) {
+    
+    #containers {
+        width: 1272px;
+        
+    }
+}
+@media screen and (max-width:1100px) {
+    
+    #containers {
+        height: 1568px;
+        width: 1100px;
+        
+    }
+}
+@media screen and (min-width:700px) and (max-width: 1000px){
+    
+    #imagecontainer .imgdiv{
+        right: 26%;
+    }
+}
+@media screen and (max-width: 510px) {
+    
+    #imagecontainer .imgdiv {
+        right: 30%;
+        padding: 61px 168px;
+        margin: 3px 77px;
+    }
+    #containers {
+        height: 2312px;
+        width: 459px;
+    }
+    #btncontainer .btn {
+        left: 35%;
+        top: 90%;
+    }
+}
+#logocontainer img {
+    left: 45%;
+    top: 95%;
+}
+
+#container h1 {
+    position: relative;
+    margin: 75px 40px 30px 0px;
+    right: 37%;
+}
+#container #imagecontainer {
+    display: flex;
+    width: 1096px;
+    padding: 0px 30px;
+    margin: 31px 142px;
+    flex-wrap: wrap;
+}
+@media screen and (min-width:511px) and (max-width: 699px){
+    
+    #imagecontainer .imgdiv {
+        padding: 56px 166px;
+        right: 25%;
+    }
+    #container h1 {
+        position: relative;
+        right: 28%;
+    }
+    #containers {
+        height: 1568px;
+        width: 832px;
+    }
+}
 
 
-/* Styling Footer Section  */

@@ -8,7 +8,8 @@
 
 #navbar{
     display: flex;
-    height: 72px;
+    /* height: 72px; */
+    height: 59px;
     position: relative;
 }
 #navbar::before{
@@ -61,6 +62,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 385px;
     padding: 50px 0px;
 
 
@@ -81,39 +83,30 @@
     font-size: 5.3rem;
     font-family: 'Roboto', sans-serif;
 }
-/* Styling Service Section  */
-#service-container{
+/* Styling Require Section  */
+#require-container{
     padding: 160px 3px;
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
 }
-#service{
+#require{
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     margin: 0px;
     padding: 0px 80px;
 }
 
-#service .box{
+#require .box{
     margin: 33px;
 }
 
 /* Styling Resource Section  */
 #resources{
     position: relative;
-    /* border: 2px solid red; */
     height: 500px;
-    /* border: 2px solid red; */
 }
 #resources::before{
     content: "";
     position: absolute;
     height: 100%;
     width: 100%;
-    /* border: 2px solid red; */
-    /* border: 2px solid red; */
 }
     
 #topic{
@@ -122,7 +115,6 @@
     align-items: center;
 }
 #topic #topic-1{
-    /* border: 2px solid red; */
     position: absolute;
     top: 0%;
     left: 4%;
@@ -133,10 +125,8 @@
 }
 #topic .resource-contents{
     position: absolute;
-    /* top: 47%; */
     width: 100%;
     left: 0%;
-    /* top: 8%; */
     line-height: 70px;
     margin-top: 15%;;
     color: #27AD6C;
@@ -203,31 +193,35 @@
 }
 
 /* Styling Food Section  */
-#food-section{
-    display: flex;
-    width: 100%;
-    margin-top: 212px;
-}
+
 #foodbox{
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
-#foodheader{
-    text-align: center;
-    margin: 4px 4px;
-}
-#foodheader .para{
-    color: #9B9B9B;
-    font-style: italic;
-}
+
 #foods{
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 85px
+    position: absolute;
+    top: 347%;
 }
 
 #foods .food-items img{
-    width: 449px;
+    width: 451px;
+    height: 321px;
     margin-top: -4px;
+    margin-left: -4px;
+}
+
+#foodheader h1{
+    text-align: center;
+    position: relative;
+    top: 222px;
+}
+#foodheader p{
+    text-align: center;
+    position: relative;
+    top: 222px;
 }
 
 /* Styling Service container section  */
@@ -326,8 +320,6 @@
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     padding: 12px;
-
-
 }
 .h-secondary{
     color:  #27AD6C;
@@ -342,13 +334,12 @@
 }
 
 .btn{
-    width: fit-content;
-    border-radius: 4px;
-    /* padding: 4px 5px; */
+    position: absolute;
+    top: 72%;
     width: 192px;
     height: 62px;
     background-color: #27AD6C;
-    border-radius: 4px;
+    border-radius: 10px;
 
 }
 .btntxt{
