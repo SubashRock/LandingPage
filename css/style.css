@@ -46,12 +46,24 @@
     text-decoration: none;
     color: whitesmoke;
     padding: 10px 25px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
+    font-size: 1rem;
     
 }
 #navbar ul li a:hover{
     background-color: rgb(194, 180, 180);
     border-radius: 10px;
+    font-size: 1.5rem;
+    
+}
+#navbar ul li.active a{
+    color: #70C919;
+
+    
+}
+#navbar ul li.active a:hover{
+    color: white;
+
     
 }
 
@@ -81,7 +93,12 @@
 #home h1{
     color: white;
     font-size: 5.3rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
+}
+#home h1:hover{
+    color: white;
+    font-size: 6.3rem;
+    font-family: 'Roboto';
 }
 /* Styling Require Section  */
 #require-container{
@@ -95,6 +112,9 @@
 
 #require .box{
     margin: 33px;
+}
+#require .box img:hover{
+    width: 400px;
 }
 
 /* Styling Resource Section  */
@@ -156,7 +176,6 @@
     transform: rotate(90deg);
 }
 #topic #topic-2{
-    /* border: 2px solid red; */
     position: absolute;
     top: 0%;
     right: 3%;
@@ -168,7 +187,7 @@
     position: absolute;
     top: 0%;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     line-height: 56.25px;
 }
 
@@ -212,7 +231,6 @@
     margin-top: -4px;
     margin-left: -4px;
 }
-
 #foodheader h1{
     text-align: center;
     position: relative;
@@ -260,7 +278,10 @@
     font-size: 18px;
     line-height: 26px;
     color: white;
-
+    
+}
+#imagecontainer .imgdiv img:hover{
+    width: 70px;
 }
 #imagecontainer .imgdiv p{
     position: absolute;
@@ -302,11 +323,23 @@
     position: absolute;
     right: 5%;
 }
-#footer ul li{
+#footer ul li {
     list-style: none;
     padding: 10px 25px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 14px;
+}
+#footer ul li a{
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+#footer ul li a:hover{
+    background-color: rgb(194, 180, 180);
+    border-radius: 10px;
+
 }
 .copyright h3{
     margin: 10px 20px;
@@ -317,7 +350,7 @@
 .h-primary{
     color: #9B9B9B;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 3rem;
     padding: 12px;
 }
@@ -342,6 +375,13 @@
     border-radius: 10px;
 
 }
+.btn:hover{
+    background-color: #969797;
+    width: 200px;
+    height: 72px;
+
+
+}
 .btntxt{
     width: 110px;
     height: 19px;
@@ -356,10 +396,16 @@
     width: 40%;
     margin: 20px 15px;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     line-height: 1.6;
+    font-size: 20px;
     
 }
+#home-para:hover{
+    font-size: 24px;
+    
+}
+
 .text-center{
     text-align: center;
 }
